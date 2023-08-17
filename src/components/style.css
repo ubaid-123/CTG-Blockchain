@@ -1,0 +1,286 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.body{
+    position: relative; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body1{
+    position: relative;
+}
+
+.body::before {    
+    content: "";
+    background-image:linear-gradient(90deg, rgba(74,14,74,0.6026785714285714) 0%, rgba(40,8,47,0.7147233893557423) 49%, rgba(253,199,255,0.7903536414565826) 100%), url(../images/bg2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* opacity: 0.7; */
+
+}
+
+/* master page */
+/* nav bar */
+.nav-item:hover{
+    border-bottom: #a177fa 5px solid ;
+}
+
+/* footer */
+.li-foot{
+    color: white;
+}
+
+.btn-foot{
+    background-color: gray;
+}
+
+/* sroll bar */
+::-webkit-scrollbar-track{
+    -webkit-scroll-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+    
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #FFF;
+    background-image: -webkit-linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 25%,
+        transparent 100%,
+        rgba(0, 0, 0, 1) 75%,
+        transparent
+    )
+}
+
+/* main page */
+/* first div */
+.main_d2 {
+	height: 100vh;
+	min-height: 760px;
+	width: 100%;
+	background-size:cover;
+    background-image:linear-gradient(
+        92deg
+        , #1a1721 50%, rgba(26, 23, 33, 0)), linear-gradient(
+        180deg
+        , rgba(26, 23, 33, 0) 68%, #1a1721), linear-gradient(
+        180deg
+        , #1a1721 12%, rgba(26, 23, 33, 0)), url(../images/bg4.gif);
+}
+
+.main_d1{
+    padding-top: 10%;
+    color: white;
+}
+
+/* first heading */
+.main_h1{
+    font-size: 65px;
+    font-weight: 300;
+
+}
+
+.textArea{
+    width: 50%;
+    background-color:  rgba(255,255,255,0.1);
+    height: auto;
+    /* margin-left: 30%; */
+    padding: 1.5%;
+}
+
+/* presale dashboard heading */
+.main_a1{
+    width: auto;
+    background-color:  rgba(255,255,255,0.1);
+    height: auto;
+    /* margin-left: 30%; */
+    margin: 1%;
+    padding: 2%;
+    color: #e362c0;
+    border:2px solid #e362c0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_a1:hover{
+    text-decoration: underline;
+    color: #e362c0;
+    background-color: rgba(255, 255, 255, 0.253);
+}
+
+/* main page boxes */
+.pd{
+    background-color: rgba(222,222,222,0.1);
+    border: solid 1px rgba(255,255,255,0.2);
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+/* main page boxes heading */
+.main_h6{
+    background-color: rgba(222,222,222,0.2);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.main_pa1{
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.6;
+}
+
+.price_eth{
+    padding: 10px;
+    padding-left:18%;
+    font-size: 28px!important;
+    font-weight: 100!important;
+    height: 60px;
+}
+
+.price_credit{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left:18%;
+}
+
+.main_d3{
+    background-color: #e0e0e0;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    margin-left:0.02%;
+    padding: 0px 60px 30px 60px;
+    color: #333;   
+}
+
+/* banner logo */
+.fbox{
+    text-align: center;
+    width: 33%;
+    float: left;
+    padding-top: 30px;
+}
+
+/* customer reviews */
+.main_d4{
+    background-color: rgb(13, 3, 31);
+    color: #fff;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 40px 10px!important;
+    max-width: 100%;
+    width: 100%;
+    margin-left:0.02%;  
+}
+
+.txtbox{
+    text-align: center;
+    width: calc(33% - 40px);
+    float: left;
+    padding: 30px 8px;
+    margin-right: 3%;
+}
+
+.pbox{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.tbox{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.4);
+}
+
+
+.h2f{
+    font-weight: 700;
+    font-size: 17px;
+    color: #6479b1;
+}
+
+.pinfo{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 15px;
+    text-align: left;
+    line-height: 29px;
+}
+
+/* master page 
+footer buttons */
+.btn {
+    cursor: pointer;
+    box-shadow: none!important;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 70px;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out , background-color .15s ease-in-out , border-color .15s ease-in-out , box-shadow .15s ease-in-out;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-foot {
+    background-color: gray;
+}
+
+.scrolling{
+    background: linear-gradient(to bottom right, #456 , #000);
+    transition: 0.8s all;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.6);
+}
+
+@media (min-width: 1023px){
+    .container{
+        height: 100%;
+    }
+}
